@@ -1,0 +1,237 @@
+
+/*NAVBAR*/
+
+#food a{
+   color: #f63;
+}
+#food a:hover{
+    color: #fec503;
+}
+
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent;
+}
+.navbar-custom .navbar-brand {
+  color: #f63;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #fec503;
+}
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+  background-color: #f63;
+  border-color: #f63;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #f63;
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #fec503;
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #f63;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #f63;
+}
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: transparent;
+    padding: 10px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color: #222222;
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+#mainNav{
+   background-color: #222222; 
+   
+}
+#solefit{
+font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*t20*/
+
+.col-sm-12 img{
+    width: 100%;
+    height: 320px;
+    width: 480px;
+}
+.t20container{
+    margin: 0 auto;
+    margin-top: 80px;
+    height: 320px;
+    width: 480px;
+}
+@media (max-width: 400px){
+    .col-sm-12 img,.t20container{
+        width: 290px;
+        height: 203px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+/*Text Description*/
+
+.description h1{
+    color: #f63;
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    padding-top: 20px;
+}
+
+.description p{
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding: 0px 150px;
+    text-align: justify;
+}
+
+@media (max-width: 400px){
+    .description p{
+        padding: 10px;
+        font-size: 15px;
+    }
+    .description h1{
+        font-size: 20px;
+    }
+}
+  
+
+
+
+
+
+/*Input form*/
+
+.jumbotron{
+    margin: 0px 110px;
+}
+#the-basics{
+font-size: 2em;
+}
+#the-basics a{
+    background-color: #f63;
+    border: none;
+    font-size: 17px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px;
+    margin-left: 10px;
+    width: 70px;
+}
+.typeahead{
+    width:240px;
+    font-size:20px;
+    border-radius:5px;
+    margin-left:20px;
+    
+}
+@media (max-width: 400px){
+    #the-basics{
+        font-size: 1.2em;
+    }
+    #the-basics a{
+        font-size: 15px;
+        padding:5px 0;
+        margin-top: 5px;
+        width: 40px;
+    }
+    .typeahead{
+        max-width: 150px;
+        height: 30px;
+    }
+    .jumbotron{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: -5px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
