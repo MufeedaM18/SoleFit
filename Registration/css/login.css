@@ -1,0 +1,215 @@
+/*NAVBAR*/
+
+#logz a{
+   color: #f63;
+}
+
+#logz a:hover{
+    color: #fec503;
+}
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent;
+}
+.navbar-custom .navbar-brand {
+  color: #f63;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #fec503;
+}
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+  background-color: #f63;
+  border-color: #f63;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #f63;
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color:  #fec503;
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #f63;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #f63;
+}
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: transparent;
+    padding: 10px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color: #222222;
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+#mainNav{
+   background-color: #222222; 
+   
+}
+#solefit{
+font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+.logfit{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+/*    border: 5px solid #000;*/
+    border-radius: 15px;
+
+    padding: 5px;
+/*    box-sizing: border-box;*/
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 500px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.mybutton{
+    background-color: #f63;
+    color: white;
+    text-align: center;
+    width: 210px;
+    height: 40px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+
+.logfit h4{
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    text-align: center;
+    margin-top: -30px;
+}
+
+input{
+    font-size: 13px;
+    border-radius: 5px;
+    height: 40px;
+    width: 210px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+.mybutton:hover{
+    color: white;
+}
+.fa-user{
+    color: #fff;
+
+}
+.fa-circle{
+    color: #f63;
+}
+
+.fa-stack{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.logfit h3{
+   color: #f63;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    padding-bottom: 20px;
+    font-size: 35px;
+    
+}
+.logfit a{
+    color: #f63;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.logfit a:hover{
+    text-decoration: none;
+    color: #d42;
+}
+@media (max-width: 400px){
+    .logfit{
+        display: flex;
+        justify-content: flex-start;
+        width: 230px;
+        align-items: flex-start;
+    }
+}
+
+.suc{
+    margin-top: 72px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
