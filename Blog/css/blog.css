@@ -1,0 +1,208 @@
+
+/*NAVBAR*/
+
+#log a{
+   color: #f63;
+}
+#log a:hover{
+    color: #fec503;
+}
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent;
+}
+.navbar-custom .navbar-brand {
+  color: #f63;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #fec503;
+}
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+  background-color: #f63;
+  border-color: #f63;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #f63;
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #fec503;
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #f63;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #f63;
+}
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: transparent;
+    padding: 10px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color: #222222;
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+#mainNav{
+   background-color: #222222; 
+   
+}
+#solefit{
+font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #eeeeee;
+    margin: 0 auto;
+}
+.blog{
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 3px;
+}
+
+
+
+.c1 h1,p{
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+    margin-left: 200px;
+}
+.c1 .mybutton{
+    margin-left: -155px;
+    background-color: gray;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.c2 img{
+    height: 220px;
+    width: 320px;
+    padding: 26px;
+}
+
+
+@media(max-width:400px){
+    .blog{
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+    .c1 h1,p{
+        margin-left: 0;
+         margin-left: 5px;
+         margin-right: 5px;
+    }
+    .c1 h1{
+        text-align: left;
+        font-size: 30px;
+    }
+    .c1 p{
+        text-align: justify;
+    }
+    .c1 .mybutton{
+        margin-left: 0;
+    }
+    .c2 img{
+        height: 200;
+        width: 240px;
+    }
+    .c2{
+        text-align: center;
+    }
+}
+.art,.post_info{
+    color: #000;
+}
+.art:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+
+
+
+
+
+
+
