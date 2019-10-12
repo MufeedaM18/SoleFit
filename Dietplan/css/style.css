@@ -1,0 +1,333 @@
+
+/*NAVBAR*/
+#diets a{
+   color: #f63;
+}
+#diets a:hover{
+    color: #fec503;
+}
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent;
+}
+.navbar-custom .navbar-brand {
+  color: #f63;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #fec503;
+}
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+  background-color: #f63;
+  border-color: #f63;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #f63;
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #fec503;
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #f63;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #f63;
+}
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: transparent;
+    padding: 10px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color: #222222;
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+#mainNav{
+   background-color: #222222; 
+   
+}
+#solefit{
+font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #eee;
+}
+
+
+
+
+/*
+body {
+  background: #F73946;
+  background: -webkit-linear-gradient(left top, #F73946, #FF3875);
+  background: -o-linear-gradient(bottom right, #F73946, #FF3875);
+  background: -moz-linear-gradient(bottom right, #F73946, #FF3875);
+  background: linear-gradient(to bottom right, #F73946, #FF3875);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+*/
+
+.bmi-calculator {
+  margin: 75px auto;
+  width: 100%;
+  max-width: 500px;
+  display: table;
+  background: #2B2D41;
+  color: #4E5279;
+  border-radius: 5px;
+  margin-top: 100px;
+/*  box-shadow: 0px 2px 45px 8px #C32B4A;*/
+}
+
+.result {
+  display: table;
+  width: 100%;
+}
+
+.result-text {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 20px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: #4CA456;
+  background: -webkit-linear-gradient(left top, #4FD24D, #4CA456);
+  background: -o-linear-gradient(bottom right, #4FD24D, #4CA456);
+  background: -moz-linear-gradient(bottom right, #4FD24D, #4CA456);
+  background: linear-gradient(to bottom right, #4FD24D, #4CA456);
+  transition: all 0.4s ease-in;
+  -webkit-transition-delay: 2s;
+  /* Safari */
+  transition-delay: 2s;
+/*  box-shadow: 0px 5px 25px 2px #333;*/
+}
+.result-text h1 {
+  color: #fff;
+  font-size: 3em;
+  margin: 8px 0;
+  padding: 0;
+}
+.result-text small {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+}
+
+.calculator {
+  padding: 20px;
+}
+
+.calculator-title {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  padding: 15px;
+}
+
+.calculator-hr {
+  margin-top: -10px;
+  width: 80%;
+  border: 1.2px solid #f63;
+  border-radius: 15px;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 75%;
+  height: 4px;
+  background: #27283A;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: -15px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: #f63;
+  cursor: pointer;
+}
+
+input[type=range]::-moz-range-thumb {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: #f63;
+  cursor: pointer;
+}
+
+input[type=range]::-ms-thumb {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: #f63;
+  cursor: pointer;
+}
+
+.field-text {
+  font-size: 2em;
+  color: #f63;
+  font-weight: 700;
+  padding: 8px;
+  display: inline-block;
+}
+.value_range{
+    background: #f63;
+    color: #f63;
+}
+
+.label-height:after {
+  content: ' cm';
+  font-size: 0.5em;
+  color: #4E5279;
+  font-weight: 400;
+  text-align: center;
+  margin-top: -12px;
+}
+
+.label-weight:after {
+  content: ' kg';
+  font-size: 0.5em;
+  color: #4E5279;
+  font-weight: 400;
+}
+
+.submit {
+  text-align: center;
+}
+
+#submit {
+  
+  background: -webkit-linear-gradient(left top, #F73946, #FF3875);
+  background: -o-linear-gradient(bottom right, #F73946, #FF3875);
+  background: -moz-linear-gradient(bottom right, #F73946, #FF3875);
+  background: linear-gradient(to bottom right, #F73946, #FF3875);
+  background: #f63;
+  border: none;
+  border-radius: 30px;
+  padding: 4px 25px;
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 100;
+  transition: all 0.3s ease-in;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*  text-transform: uppercase;*/
+    
+}
+#submit:hover, #submit:focus {
+  color: #aaa;
+  outline: none;
+}
+.dietp{
+    text-align: center;
+    padding-top: 20px;
+}
+.go a:hover{
+    color: yellow;
+    
+}
+
+
+
+
+
+
+
+/*FOOTER*/
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 0px;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
